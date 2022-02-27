@@ -42,7 +42,7 @@ function Searchmain() {
     useEffect( () => {
 
         getWeatherInfo()
-    },[getWeatherInfo])
+    },[])
   return (
     <>
     <div className="headtext"> Check Weather</div>
